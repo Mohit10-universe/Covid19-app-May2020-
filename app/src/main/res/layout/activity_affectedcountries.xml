@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundmain"
+    android:background="@drawable/backgroundfinal"
     tools:context=".Affectedcountries">
 
 
@@ -16,10 +16,10 @@
         android:maxLines="1"
         android:singleLine="true"
         android:paddingLeft="20dp"
-        android:background="@drawable/edittext_shadow"
+        android:background="@drawable/backgroundfinal"
         android:hint="Search"
         android:drawablePadding="5dp"
-        android:textColorHint="@color/color_white"
+        android:textColorHint="@color/color_one"
         android:drawableLeft="@drawable/search_icon" />
 
 

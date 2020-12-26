@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundmain"
+    android:background="@drawable/backgroundfinal"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:background="@color/background"
+            android:background="@drawable/backgroundfinal"
             android:weightSum="2">
 
             <org.eazegraph.lib.charts.PieChart
@@ -63,7 +63,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Total Cases"
-                        android:textColor="@color/color_white" />
+                        android:textColor="@color/color_one" />
 
 
                 </LinearLayout>
@@ -85,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Total Recovered"
-                        android:textColor="@color/color_white" />
+                        android:textColor="@color/color_one" />
 
 
                 </LinearLayout>
@@ -106,7 +106,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Deaths"
-                        android:textColor="@color/color_white" />
+                        android:textColor="@color/color_one" />
 
 
                 </LinearLayout>
@@ -127,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="Active cases"
-                        android:textColor="@color/color_white" />
+                        android:textColor="@color/color_one" />
 
 
                 </LinearLayout>
@@ -183,7 +183,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/background">
+                    android:background="@drawable/backgroundfinal">
 
 
                  <com.leo.simplearcloader.SimpleArcLoader
@@ -213,7 +213,7 @@
                              android:layout_marginLeft="20dp"
                              android:layout_marginTop="20dp"
                              android:text="Global stats"
-                             android:textColor="@color/color_white"
+                             android:textColor="@color/color_one"
                              android:textAllCaps="true"
                              android:textSize="20sp"
                              android:textStyle="bold">
@@ -222,7 +222,7 @@
                          <View
                              android:layout_width="match_parent"
                              android:layout_height="1dp"
-                             android:background="@color/color_two"
+                             android:background="@color/color_one"
                              android:layout_marginLeft="20dp"
                              android:layout_marginRight="20dp"
                              android:layout_marginTop="5dp"/>
@@ -240,7 +240,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Cases"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -287,7 +287,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Recovered"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -334,7 +334,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Critical"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -381,7 +381,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Active"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -428,7 +428,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Today Cases"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -475,7 +475,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Total Deaths"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -522,7 +522,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Today Deaths"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -570,7 +570,7 @@
                                  android:layout_height="wrap_content"
                                  android:fontFamily="sans-serif-light"
                                  android:text="Affected Countries"
-                                 android:textColor="@color/color_white"
+                                 android:textColor="@color/color_one"
                                  android:textSize="18sp"/>
                              <TextView
                                  android:layout_width="fill_parent"
@@ -600,7 +600,7 @@
                          <View
                              android:layout_width="match_parent"
                              android:layout_height="1dp"
-                             android:background="@color/color_two"
+                             android:background="@color/color_one"
                              android:layout_marginLeft="20dp"
                              android:layout_marginRight="20dp"
                              />
